@@ -8,15 +8,18 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Montserrat', sans-serif; background: #f9f9f9; color: #333; }
-    header { background: #000; color: #fff; padding: 2rem; text-align: center; }
+    header { background: #000; color: #fff; padding: 4rem; text-align: center; position: relative; }
+    header h1 { font-size: 3rem; }
+    header p { font-size: 1.5rem; margin-top: 1rem; }
     nav { background: #222; padding: 1rem; text-align: center; }
     nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
-    section { padding: 4rem 2rem; max-width: 1000px; margin: auto; }
-    .btn { background: #000; color: #fff; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; }
-    .btn:hover { background: #444; }
+    section { padding: 4rem 2rem; max-width: 1000px; margin: auto; text-align: center; }
+    .cta-btn { background: #000; color: #fff; padding: 1rem 2rem; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; text-transform: uppercase; }
+    .cta-btn:hover { background: #444; }
     footer { background: #000; color: #fff; text-align: center; padding: 2rem; margin-top: 2rem; }
     .social-icons a { color: #fff; margin: 0 0.5rem; font-size: 1.2rem; text-decoration: none; }
+    @media (max-width: 768px) { header h1 { font-size: 2.5rem; } header p { font-size: 1.2rem; } }
   </style>
 </head>
 <body>
@@ -34,10 +37,10 @@
   </nav>
 
   <section>
-    <h2>Bienvenue sur mon portfolio</h2>
-    <p>Découvrez mon univers à travers les différentes sections du site. Passion, vitesse, adrénaline et précision au cœur de chaque image.</p>
+    <h2>Bienvenue dans mon univers</h2>
+    <p>Je suis photographe professionnel, spécialisé dans le sport mécanique. Mon travail consiste à capturer l'instant où la vitesse, la puissance et l'émotion se rencontrent. Explorez mes photos et découvrez un monde où chaque image raconte une histoire.</p>
     <br>
-    <a href="galerie.html" class="btn">Voir la galerie</a>
+    <a href="galerie.html" class="cta-btn">Voir la galerie</a>
   </section>
 
   <footer>
